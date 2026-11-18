@@ -48,3 +48,25 @@ Taskly adalah aplikasi berbasis React untuk membantu mahasiswa mencatat, mengatu
 ## Repository
 
 https://github.com/putriazmi657-collab/manajemen-tugas-kuliah-react
+
+## Struktur Folder
+
+```text
+src/
+├── components/
+│   ├── Header.tsx
+│   ├── TaskForm.tsx
+│   ├── TaskItem.tsx
+│   ├── TaskList.tsx
+│   ├── TaskFilter.tsx
+│   ├── TaskStats.tsx
+│   └── Footer.tsx
+├── types/
+│   └── Task.ts
+├── App.tsx
+├── App.css
+├── index.css
+└── main.tsx
+```
+
+Struktur folder dibuat untuk memisahkan komponen tampilan, tipe data, dan logika utama aplikasi.
