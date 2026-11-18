@@ -70,3 +70,13 @@ src/
 ```
 
 Struktur folder dibuat untuk memisahkan komponen tampilan, tipe data, dan logika utama aplikasi.
+
+## Cara Menggunakan Aplikasi
+
+1. Isi formulir untuk menambahkan tugas kuliah.
+2. Klik tombol Edit untuk mengubah informasi tugas.
+3. Klik tombol Hapus untuk menghapus tugas.
+4. Gunakan tombol Selesaikan untuk mengubah status tugas.
+5. Gunakan kolom pencarian untuk mencari tugas.
+6. Gunakan filter untuk menampilkan tugas berdasarkan status.
+7. Lihat statistik untuk memantau jumlah tugas.
