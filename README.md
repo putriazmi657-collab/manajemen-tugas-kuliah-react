@@ -80,3 +80,7 @@ Struktur folder dibuat untuk memisahkan komponen tampilan, tipe data, dan logika
 5. Gunakan kolom pencarian untuk mencari tugas.
 6. Gunakan filter untuk menampilkan tugas berdasarkan status.
 7. Lihat statistik untuk memantau jumlah tugas.
+
+## Pengembangan Selanjutnya
+
+Aplikasi Taskly dapat dikembangkan dengan menambahkan penyimpanan data menggunakan Local Storage, autentikasi pengguna, dan integrasi API agar pengelolaan tugas menjadi lebih lengkap.
