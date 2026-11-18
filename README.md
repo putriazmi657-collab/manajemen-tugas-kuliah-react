@@ -1,32 +1,50 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# Taskly - Manajemen Tugas Kuliah
 
-Currently, two official plugins are available:
+Taskly adalah aplikasi berbasis React untuk membantu mahasiswa mencatat, mengatur, dan memantau tugas perkuliahan.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Identitas Pembuat
 
-## React Compiler
+- Nama: Azmi Putri Kuswandi
+- NIM: 1247050126
+- Program Studi: S1 Teknik Informatika
+- Kelas: A
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Teknologi
 
-## Expanding the Oxlint configuration
+- React
+- TypeScript
+- Vite
+- CSS
+- Git dan GitHub
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Fitur Aplikasi
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+1. Menambahkan tugas kuliah.
+2. Mengedit informasi tugas.
+3. Menghapus tugas.
+4. Menandai tugas sebagai selesai.
+5. Mencari tugas berdasarkan nama atau mata kuliah.
+6. Memfilter tugas berdasarkan status.
+7. Menampilkan statistik tugas.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Komponen React
+
+- Header
+- TaskForm
+- TaskItem
+- TaskList
+- TaskFilter
+- TaskStats
+- Footer
+
+## Cara Menjalankan Aplikasi
+
+1. Clone repository.
+2. Jalankan `npm install`.
+3. Jalankan `npm run dev`.
+4. Buka alamat lokal yang ditampilkan Vite.
+
+## Repository
+
+https://github.com/putriazmi657-collab/manajemen-tugas-kuliah-react
